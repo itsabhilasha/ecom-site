@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 20%;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(250, 208, 208);
+  color: rgb(37, 51, 15);
+  font-family: "Allura", cursive;
+}
+
+.items-table {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-spacing: 1rem;
+  margin-left: -12rem;
+}
+
+.item-quantity {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  height: 100%;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.item-row {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
